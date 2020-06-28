@@ -4,10 +4,19 @@ function add(a,b){
   return a;
 }
 function subtract(a,b){
+  var a, b;
+  a -= b;
+  return a;
 }
 function multiple(a,b){
+  var a, b;
+  a *= b;
+  return a;
 }
 function divide(a,b){
+  var a, b;
+  a /= b;
+  return a;
 }
 
 function makeInt(n){
