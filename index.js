@@ -8,19 +8,30 @@ function add(a,b){
   return intA;
 }
 function subtract(a,b){
-  var a, b;
-  a -= b;
-  return a;
+  var intA = a, intB = b;
+  intA -= intB;
+  return intA;
 }
 function multiple(a,b){
-  var a, b;
-  a *= b;
-  return a;
+  var intA = a, intB = b;
+  intA *= intB;
+  return intA;
 }
 function divide(a,b){
-  var a, b;
-  a /= b;
-  return a;
+  var intA = a, intB = b;
+  intA /= intB;
+  return intA;
+}
+
+function increment(n){
+  var internal = n;
+  internal++;
+  return internal;
+}
+function decrement(n){
+  var internal = n;
+  internal--;
+  return internal;
 }
 
 function makeInt(n){
