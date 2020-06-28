@@ -11,7 +11,7 @@ describe('basic math functions', function () {
   })
 
   it("'subtract()' is a valid function", function() {
-    expect(add).toExist
+    expect(add).toExist // // these should clearly read something else.
   })
 
   it("'multiple()' is a valid function", function() {
