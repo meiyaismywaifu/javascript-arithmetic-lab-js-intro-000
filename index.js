@@ -16,6 +16,7 @@ function makeInt(n){
 }
 
 function preserveDecimal(n){
-  parseFloat(n);
-  return n;
+  var internal;
+  internal = parseFloat(n);
+  return internal;
 }
