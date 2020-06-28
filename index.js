@@ -13,3 +13,8 @@ function makeInt(n){
   var internal = parseInt(n, 10);
   return internal;
 }
+
+function preserveDecimal(n){
+  parseFloat(n);
+  return n;
+}
