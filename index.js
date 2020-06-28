@@ -12,7 +12,7 @@ function subtract(a,b){
   intA -= intB;
   return intA;
 }
-function multiple(a,b){
+function multiply(a,b){
   var intA = a, intB = b;
   intA *= intB;
   return intA;
